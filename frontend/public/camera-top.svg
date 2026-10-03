@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 360" role="img" aria-labelledby="title description">
+  <title id="title">Camera seen from above</title>
+  <desc id="description">A DSLR seen from above, with the lens pointing right: mode dial on the left shoulder, central viewfinder and closed pop-up flash, a metal hot shoe, top status LCD, and a shutter-release button with power switch on the right-hand grip.</desc>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#43505a"/>
+      <stop offset=".43" stop-color="#2c363d"/>
+      <stop offset="1" stop-color="#172027"/>
+    </linearGradient>
+    <linearGradient id="barrel" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#454c51"/>
+      <stop offset=".12" stop-color="#22292e"/>
+      <stop offset=".5" stop-color="#0c1115"/>
+      <stop offset=".88" stop-color="#282f34"/>
+      <stop offset="1" stop-color="#4b5357"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#d0d3d1"/>
+      <stop offset=".38" stop-color="#727b80"/>
+      <stop offset=".62" stop-color="#b0b8b9"/>
+      <stop offset="1" stop-color="#5d676c"/>
+    </linearGradient>
+    <radialGradient id="shutter" cx=".35" cy=".25" r=".8">
+      <stop stop-color="#b9c0c3"/>
+      <stop offset=".5" stop-color="#68757c"/>
+      <stop offset="1" stop-color="#263139"/>
+    </radialGradient>
+    <linearGradient id="lcd" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#c6cfc3"/>
+      <stop offset="1" stop-color="#8fa496"/>
+    </linearGradient>
+    <pattern id="grip" width="6" height="6" patternUnits="userSpaceOnUse">
+      <path d="M0 6 6 0M-2 2 2-2M4 8 8 4" stroke="#899096" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <clipPath id="focusRing"><rect x="374" y="91" width="90" height="178" rx="3"/></clipPath>
+  </defs>
+
+  <!-- The lens sits behind the body so its mount stays visually connected. -->
+  <path d="M248 113 286 92V268L248 247Z" fill="#11191e" stroke="#515b61" stroke-width="2"/>
+  <path d="M277 94H485V266H277Z" fill="url(#barrel)" stroke="#11171c" stroke-width="4"/>
+  <rect x="292" y="91" width="36" height="178" rx="3" fill="#354149"/>
+  <path d="M301 95V265M319 95V265" stroke="#64727a" stroke-width="2" opacity=".55"/>
+  <rect x="328" y="88" width="12" height="184" rx="2" fill="#0e1418"/>
+  <rect x="340" y="96" width="34" height="168" fill="#1b252c"/>
+  <path d="M348 100V260M357 100V260M366 100V260" stroke="#54616a" stroke-opacity=".5" stroke-width="2"/>
+  <rect x="374" y="91" width="90" height="178" rx="3" fill="#26323a"/>
+  <g clip-path="url(#focusRing)" stroke="#51626a" stroke-opacity=".56" stroke-width="4">
+    <path d="M381 90V270M391 90V270M401 90V270M411 90V270M421 90V270M431 90V270M441 90V270M451 90V270M461 90V270"/>
+  </g>
+  <path d="M378 98H461M378 262H461" stroke="#91a0a5" stroke-opacity=".35" stroke-width="2"/>
+  <rect x="464" y="86" width="18" height="188" rx="2" fill="#131a1f"/>
+  <path d="M480 84H510Q516 84 516 90V270Q516 276 510 276H480Z" fill="#303b42" stroke="#0b1115" stroke-width="4"/>
+  <path d="M489 91V269M505 91V269" stroke="#69777c" stroke-opacity=".48" stroke-width="2"/>
+  <path d="M514 89Q523 89 523 98V262Q523 271 514 271Z" fill="#0c1318"/>
+
+  <!-- Clockwise-rotated top view: rear at left, photographer's right grip below. -->
+  <path d="M40 75Q40 40 75 40H179Q199 40 214 56L237 81 248 119Q267 132 270 153V222Q269 240 252 251L276 264Q304 275 307 301Q309 336 277 339H74Q40 339 40 305Z" fill="#10171b"/>
+  <path d="M49 76Q49 50 77 50H175Q193 50 206 64L228 86 239 124Q258 139 260 155V219Q258 239 239 250L270 273Q295 282 297 301Q298 329 274 330H76Q49 330 49 304Z" fill="url(#body)" stroke="#59666c" stroke-width="2"/>
+  <path d="M220 252Q282 263 294 298L289 320Q284 328 274 328H218Z" fill="#1b2429"/>
+  <path d="M220 252Q282 263 294 298L289 320Q284 328 274 328H218Z" fill="url(#grip)"/>
+
+  <!-- Strap eyelets and rear eyepiece are at the edges, not on the top controls. -->
+  <path d="M64 40V31Q64 26 69 26H85Q90 26 90 31V40" fill="none" stroke="#77838a" stroke-width="5"/>
+  <path d="M69 338V345Q69 350 74 350H89Q94 350 94 345V338" fill="none" stroke="#77838a" stroke-width="5"/>
+  <rect x="22" y="154" width="38" height="52" rx="7" fill="#0c1216" stroke="#4d5960" stroke-width="3"/>
+  <rect x="29" y="162" width="18" height="36" rx="3" fill="#17232a"/>
+  <path d="M34 166V194" stroke="#7d96a1" stroke-opacity=".5" stroke-width="2"/>
+
+  <!-- Left shoulder: mode dial with a locking center and release-mode ring. -->
+  <circle cx="132" cy="86" r="40" fill="#10171c" stroke="#6d7a80" stroke-width="2"/>
+  <circle cx="132" cy="86" r="35" fill="#2b363d" stroke="#141c21" stroke-width="5" stroke-dasharray="2 3"/>
+  <circle cx="132" cy="86" r="28" fill="#1b252b" stroke="#78858b" stroke-width="1"/>
+  <g transform="translate(132 86) rotate(90)" fill="#e1e6e5" font-family="Arial,sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+    <text y="-17">M</text><text x="18" y="-6">A</text><text x="18" y="13">S</text><text y="25">P</text><text x="-20" y="13" font-size="7">U1</text><text x="-20" y="-7" font-size="7">U2</text>
+  </g>
+  <circle cx="132" cy="86" r="9" fill="#424f57" stroke="#0d1519" stroke-width="2"/>
+  <path d="M178 83 171 86 178 89Z" fill="#d9dedc"/>
+  <path d="M194 70V79" stroke="#d4dcdd" stroke-width="2"/>
+  <circle cx="194" cy="86" r="4" fill="none" stroke="#d4dcdd" stroke-width="1.5"/>
+
+  <!-- Central prism and closed pop-up flash; the accessory shoe slides rearward. -->
+  <path d="M72 135Q138 124 198 138L252 157Q266 164 266 180Q266 196 252 203L198 222Q138 236 72 225Z" fill="#151d22" stroke="#52616a" stroke-width="2"/>
+  <path d="M82 142Q138 132 192 145L240 160Q254 166 254 180Q254 194 240 200L192 215Q138 228 82 218Z" fill="#334049"/>
+  <path d="M201 143Q221 157 221 180Q221 203 201 217" fill="none" stroke="#0d151a" stroke-width="3"/>
+  <path d="M208 147Q228 162 228 180Q228 198 208 213" fill="none" stroke="#6d7b83" stroke-width="1" opacity=".65"/>
+  <path d="M238 162Q246 170 246 180Q246 190 238 198" fill="none" stroke="#72818a" stroke-opacity=".3" stroke-width="2"/>
+  <rect x="232" y="126" width="17" height="8" rx="3" fill="#0d1419" stroke="#6b7880" stroke-width="1"/>
+  <path d="M239 127 236 130H241L238 133" fill="none" stroke="#d9e0df" stroke-width="1"/>
+  <g id="hot-shoe">
+    <rect x="115" y="153" width="74" height="54" rx="4" fill="#0b1216" stroke="#718088" stroke-width="2"/>
+    <rect x="123" y="160" width="58" height="40" rx="2" fill="#67767c"/>
+    <path d="M117 155H185V162H127V166H117ZM117 205H185V198H127V194H117Z" fill="url(#metal)" stroke="#aab2b1" stroke-width=".8"/>
+    <path d="M184 162V198" stroke="#d0d3cc" stroke-width="3"/>
+    <rect x="144" y="166" width="33" height="28" rx="2" fill="#28353b"/>
+    <circle cx="155" cy="180" r="4.5" fill="#c5b788"/>
+    <g fill="#b2a77f"><circle cx="170" cy="171" r="2.2"/><circle cx="170" cy="180" r="2.2"/><circle cx="170" cy="189" r="2.2"/></g>
+    <path d="M123 170V190" stroke="#bec5c2" stroke-width="2"/>
+  </g>
+
+  <!-- Right shoulder: monochrome top LCD with exposure, ISO and battery indicators. -->
+  <g transform="translate(139 287) rotate(90)">
+    <rect x="-42" y="-31" width="84" height="62" rx="8" fill="#0d1519" stroke="#66767b" stroke-width="2"/>
+    <rect x="-36" y="-25" width="72" height="50" rx="4" fill="url(#lcd)"/>
+    <g fill="#20352d" font-family="Arial,sans-serif">
+      <text x="-30" y="-12" font-size="8" font-weight="700">M</text>
+      <text x="-30" y="1" font-size="12" font-weight="700">250</text>
+      <text x="2" y="1" font-size="11" font-weight="700">F5.6</text>
+      <text x="-30" y="15" font-size="7">ISO</text><text x="-11" y="15" font-size="11" font-weight="700">400</text>
+    </g>
+    <g fill="none" stroke="#20352d" stroke-width="1">
+      <rect x="15" y="-19" width="14" height="6" rx=".8"/><path d="M29-17H31V-15H29"/>
+      <path d="M17-17H25M-29 20H10M-25 18V22M-17 18V22M-9 18V22M-1 18V22M7 18V22"/>
+    </g>
+  </g>
+
+  <!-- Right grip: actual shutter button, concentric power switch and adjacent controls. -->
+  <g id="shutter-release">
+    <circle cx="260" cy="293" r="25" fill="#0c1418" stroke="#76848b" stroke-width="2"/>
+    <circle cx="260" cy="293" r="20" fill="#37454e" stroke="#161f25" stroke-width="2"/>
+    <circle cx="260" cy="293" r="15.5" fill="url(#shutter)" stroke="#b4bec1" stroke-width="1"/>
+    <path d="M279 277 288 279 283 289 277 287Z" fill="#75858d" stroke="#152027" stroke-width="1"/>
+    <path d="M253 270V275" stroke="#e4e9e6" stroke-width="2"/>
+    <text x="273" y="267" fill="#cad3d2" font-family="Arial,sans-serif" font-size="5.5">ON</text>
+    <text x="245" y="263" fill="#cad3d2" font-family="Arial,sans-serif" font-size="5.5">OFF</text>
+  </g>
+  <g transform="translate(215 278) rotate(90)">
+    <rect x="-12" y="-7" width="24" height="14" rx="6" fill="#0f181e" stroke="#71818a" stroke-width="1"/>
+    <text y="2.5" text-anchor="middle" fill="#d9e0dc" font-family="Arial,sans-serif" font-size="7" font-weight="700">ISO</text>
+  </g>
+  <g transform="translate(224 312) rotate(90)">
+    <rect x="-11" y="-7" width="22" height="14" rx="6" fill="#111a20" stroke="#71818a" stroke-width="1"/>
+    <text y="3" text-anchor="middle" fill="#d9e0dc" font-family="Arial,sans-serif" font-size="9">±</text>
+  </g>
+  <circle cx="231" cy="252" r="7" fill="#0b1318" stroke="#6d7e88" stroke-width="1"/>
+  <circle cx="231" cy="252" r="3" fill="#cf6056"/>
+
+  <!-- Front and rear command wheels protrude from the grip's edges. -->
+  <rect x="286" y="310" width="16" height="18" rx="5" fill="#111a20" stroke="#62737b" stroke-width="1.5"/>
+  <path d="M289 313V325M293 312V326M297 313V325" stroke="#9ca8ac" stroke-opacity=".65" stroke-width="1.5"/>
+  <rect x="39" y="269" width="17" height="39" rx="5" fill="#10191f" stroke="#66757d" stroke-width="1.5"/>
+  <path d="M42 274H53M42 280H53M42 286H53M42 292H53M42 298H53M42 304H53" stroke="#87959b" stroke-width="1"/>
+</svg>

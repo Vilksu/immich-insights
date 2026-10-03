@@ -1,0 +1,17 @@
+{
+  "name": "Immich Insights",
+  "short_name": "Insights",
+  "id": "/",
+  "scope": "/",
+  "description": "Statistics for your Immich photo library",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f8f3",
+  "theme_color": "#0871ed",
+  "icons": [
+    { "src": "/icon-maskable-1024-v15.png", "sizes": "1024x1024", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon-192-v15.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512-v15.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

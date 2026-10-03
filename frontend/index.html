@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0871ed" />
+    <script>
+      try {
+        const saved = localStorage.getItem('immich-insights-theme');
+        document.documentElement.dataset.theme = saved === 'dark' || (!saved && matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+      } catch { document.documentElement.dataset.theme = 'light'; }
+    </script>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Immich Insights" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>Immich Insights</title>
+    <link rel="icon" type="image/svg+xml" href="/icon.svg?v=15" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32-v15.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16-v15.png" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=15" color="#0871ed" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon-v15.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-v15.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="/apple-touch-icon-167-v15.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152-v15.png" />
+    <link rel="manifest" href="/manifest.webmanifest?v=015" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
